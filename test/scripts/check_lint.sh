@@ -40,7 +40,7 @@ do
       exit 1
    fi
 
-   OUTPUT="$(goimports -srcdir $GOPATH/src/github.com/hyperledger/fabric-sdk-go -l $i)"
+   OUTPUT="$(goimports -srcdir $GOPATH/src/github.com/tuxago/fabric-sdk-go -l $i)"
    if [[ $OUTPUT ]]; then
       echo "YOU MUST FIX THE FOLLOWING GOIMPORTS ERRORS:"
       printf "$OUTPUT\n"

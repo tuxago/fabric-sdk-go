@@ -1,8 +1,8 @@
 # Hyperledger Fabric Client SDK for Go
 
 [![Build Status](https://jenkins.hyperledger.org/buildStatus/icon?job=fabric-sdk-go-tests-merge-x86_64)](https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-merge-x86_64)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hyperledger/fabric-sdk-go)](https://goreportcard.com/report/github.com/hyperledger/fabric-sdk-go)
-[![GoDoc](https://godoc.org/github.com/hyperledger/fabric-sdk-go?status.svg)](https://godoc.org/github.com/hyperledger/fabric-sdk-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/tuxago/fabric-sdk-go)](https://goreportcard.com/report/github.com/tuxago/fabric-sdk-go)
+[![GoDoc](https://godoc.org/github.com/tuxago/fabric-sdk-go?status.svg)](https://godoc.org/github.com/tuxago/fabric-sdk-go)
 
 This SDK enables Go developers to build solutions that interact with [Hyperledger Fabric](http://hyperledger-fabric.readthedocs.io/en/latest/).
 
@@ -12,10 +12,10 @@ Obtain the client SDK packages for Fabric and Fabric CA.
 
 ```
 # Hyperledger Fabric client package
-go get -u github.com/hyperledger/fabric-sdk-go/pkg/fabric-client
+go get -u github.com/tuxago/fabric-sdk-go/pkg/fabric-client
 
 # Hyperledger Fabric CA client package
-go get -u github.com/hyperledger/fabric-sdk-go/pkg/fabric-ca-client
+go get -u github.com/tuxago/fabric-sdk-go/pkg/fabric-ca-client
 ```
 
 You're good to go, happy coding! Check out the examples for usage demonstrations.
@@ -45,7 +45,7 @@ This client SDK was last tested and found to be compatible with the following Hy
 
 ```
 # In the Fabric SDK Go directory
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/
+cd $GOPATH/src/github.com/tuxago/fabric-sdk-go/
 
 # Running test suite
 make
@@ -73,7 +73,7 @@ To contribute patches, you will need to clone (or add a remote) from [Gerrit](ht
 
 ```
 # In the Fabric SDK Go directory
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/
+cd $GOPATH/src/github.com/tuxago/fabric-sdk-go/
 
 # Ensure dependencies are installed
 make depend
@@ -108,13 +108,13 @@ The following commands starts Fabric:
 
 ```
 # In the Fabric SDK Go directory
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/
+cd $GOPATH/src/github.com/tuxago/fabric-sdk-go/
 
 # Clean previous test run artifacts
 make clean
 
 # Start fabric
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/
+cd $GOPATH/src/github.com/tuxago/fabric-sdk-go/test/fixtures/
 docker-compose up --force-recreate
 ```
 
@@ -123,7 +123,7 @@ docker-compose up --force-recreate
 Fabric should now be running. In a different shell, run integration tests
 ```
 # In the Fabric SDK integration tests directory
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/integration/
+cd $GOPATH/src/github.com/tuxago/fabric-sdk-go/test/integration/
 go test
 ```
 
@@ -146,7 +146,7 @@ git checkout v1.0.0-rc1
 make docker
 
 # Start fabric - latest-env.sh overrides the default docker tags in .env
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/
+cd $GOPATH/src/github.com/tuxago/fabric-sdk-go/test/fixtures/
 (source latest-env.sh && docker-compose up --force-recreate)
 ```
 

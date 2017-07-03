@@ -13,7 +13,7 @@ client:
     primary: true
     tls:
       # Certificate location absolute path
-      certificate: "$GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/cacerts/org1.example.com-cert.pem"
+      certificate: "$GOPATH/src/github.com/tuxago/fabric-sdk-go/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/cacerts/org1.example.com-cert.pem"
       serverHostOverride: "peer0.org1.example.com"
   # peer 1
   # - host: "localhost"
@@ -23,7 +23,7 @@ client:
   #   primary: false
   #   tls:
   #     # Certificate location absolute path
-  #     certificate: "$GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/tls/peers/peer1/ca-cert.pem"
+  #     certificate: "$GOPATH/src/github.com/tuxago/fabric-sdk-go/test/fixtures/tls/peers/peer1/ca-cert.pem"
   #     serverHostOverride: "peer1.org1.example.com"
 
  tls:
@@ -43,7 +43,7 @@ client:
   port: 7050
   tls:
     # Certificate location absolute path
-    certificate: "$GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/cacerts/example.com-cert.pem"
+    certificate: "$GOPATH/src/github.com/tuxago/fabric-sdk-go/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/cacerts/example.com-cert.pem"
     serverHostOverride: "orderer.example.com"
 
  logging:
@@ -57,10 +57,10 @@ client:
   mspDir: "msp"
   serverURL: "https://localhost:7054"
   certfiles :
-    - "$GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/tls/fabricca/ca/ca_root.pem"
+    - "$GOPATH/src/github.com/tuxago/fabric-sdk-go/test/fixtures/tls/fabricca/ca/ca_root.pem"
   client:
-   keyfile: "$GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/tls/fabricca/client/client_client1-key.pem"
-   certfile: "$GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/tls/fabricca/client/client_client1.pem"
+   keyfile: "$GOPATH/src/github.com/tuxago/fabric-sdk-go/test/fixtures/tls/fabricca/client/client_client1-key.pem"
+   certfile: "$GOPATH/src/github.com/tuxago/fabric-sdk-go/test/fixtures/tls/fabricca/client/client_client1.pem"
 
  cryptoconfig:
-  path: "$GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/channel/crypto-config"
+  path: "$GOPATH/src/github.com/tuxago/fabric-sdk-go/test/fixtures/channel/crypto-config"

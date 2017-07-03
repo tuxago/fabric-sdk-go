@@ -12,7 +12,7 @@
 #   If not set, ARCH defaults to the value specified in .env.
 
 # Packages to include in test run
-PKGS=`go list github.com/hyperledger/fabric-sdk-go/test/integration/... 2> /dev/null | \
+PKGS=`go list github.com/tuxago/fabric-sdk-go/test/integration/... 2> /dev/null | \
                                                   grep -v /vendor/`
 
 if [ "$USE_PREBUILT_IMAGES" == false ]

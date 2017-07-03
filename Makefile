@@ -48,7 +48,7 @@ mock-gen:
 	go get -u github.com/golang/mock/gomock
 	go get -u github.com/golang/mock/mockgen
 	mockgen -source=pkg/fabric-client/peer/peer.go -destination=pkg/fabric-client/peer/mocks/mockpeer.gen.go
-	mockgen -build_flags '$(LDFLAGS)' github.com/hyperledger/fabric-sdk-go/api Config | sed "s/github.com\/hyperledger\/fabric-sdk-go\/vendor\///g"  > api/mocks/mockconfig.gen.go
+	mockgen -build_flags '$(LDFLAGS)' github.com/tuxago/fabric-sdk-go/api Config | sed "s/github.com\/hyperledger\/fabric-sdk-go\/vendor\///g"  > api/mocks/mockconfig.gen.go
 
 clean:
 	rm -Rf /tmp/enroll_user /tmp/msp /tmp/keyvaluestore
