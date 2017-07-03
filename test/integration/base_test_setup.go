@@ -12,12 +12,12 @@ import (
 	"path"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/events"
+	"github.com/tuxago/fabric-sdk-go/pkg/config"
+	"github.com/tuxago/fabric-sdk-go/pkg/fabric-client/events"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
+	api "github.com/tuxago/fabric-sdk-go/api"
 
-	fcutil "github.com/hyperledger/fabric-sdk-go/pkg/util"
+	fcutil "github.com/tuxago/fabric-sdk-go/pkg/util"
 	bccspFactory "github.com/hyperledger/fabric/bccsp/factory"
 )
 

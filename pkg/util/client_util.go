@@ -9,13 +9,13 @@ package util
 import (
 	"fmt"
 
-	client "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client"
-	sdkUser "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/user"
+	client "github.com/tuxago/fabric-sdk-go/pkg/fabric-client"
+	sdkUser "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/user"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
-	fabricCAClient "github.com/hyperledger/fabric-sdk-go/pkg/fabric-ca-client"
+	api "github.com/tuxago/fabric-sdk-go/api"
+	fabricCAClient "github.com/tuxago/fabric-sdk-go/pkg/fabric-ca-client"
 
-	kvs "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/keyvaluestore"
+	kvs "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/keyvaluestore"
 	bccspFactory "github.com/hyperledger/fabric/bccsp/factory"
 )
 

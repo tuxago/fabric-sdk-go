@@ -11,7 +11,7 @@ import (
 
 	api "github.com/hyperledger/fabric-ca/api"
 	fabric_ca "github.com/hyperledger/fabric-ca/lib"
-	sdkApi "github.com/hyperledger/fabric-sdk-go/api"
+	sdkApi "github.com/tuxago/fabric-sdk-go/api"
 
 	"github.com/hyperledger/fabric/bccsp"
 	"github.com/op/go-logging"

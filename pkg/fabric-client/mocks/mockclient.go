@@ -9,7 +9,7 @@ package mocks
 import (
 	"fmt"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
+	api "github.com/tuxago/fabric-sdk-go/api"
 
 	"github.com/hyperledger/fabric/bccsp"
 	"github.com/hyperledger/fabric/protos/common"

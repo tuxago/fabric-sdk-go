@@ -13,11 +13,11 @@ import (
 	"os"
 	"time"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
+	api "github.com/tuxago/fabric-sdk-go/api"
 	"github.com/hyperledger/fabric/common/crypto"
 
-	orderer "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/orderer"
-	peer "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/peer"
+	orderer "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/orderer"
+	peer "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/peer"
 
 	"github.com/hyperledger/fabric/protos/common"
 	protos_utils "github.com/hyperledger/fabric/protos/utils"

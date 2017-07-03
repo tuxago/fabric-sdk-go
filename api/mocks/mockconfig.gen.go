@@ -6,7 +6,7 @@ package mock_api
 import (
 	x509 "crypto/x509"
 	gomock "github.com/golang/mock/gomock"
-	api "github.com/hyperledger/fabric-sdk-go/api"
+	api "github.com/tuxago/fabric-sdk-go/api"
 	factory "github.com/hyperledger/fabric/bccsp/factory"
 	viper "github.com/spf13/viper"
 )

@@ -9,7 +9,7 @@ package mocks
 import (
 	"crypto/x509"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
+	api "github.com/tuxago/fabric-sdk-go/api"
 
 	bccspFactory "github.com/hyperledger/fabric/bccsp/factory"
 	"github.com/spf13/viper"

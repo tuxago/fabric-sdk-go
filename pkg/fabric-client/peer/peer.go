@@ -10,7 +10,7 @@ import (
 	"encoding/pem"
 	"time"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
+	api "github.com/tuxago/fabric-sdk-go/api"
 )
 
 const (

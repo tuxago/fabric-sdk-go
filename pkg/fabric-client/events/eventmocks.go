@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
-	client "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client"
-	mocks "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/mocks"
+	api "github.com/tuxago/fabric-sdk-go/api"
+	client "github.com/tuxago/fabric-sdk-go/pkg/fabric-client"
+	mocks "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/mocks"
 
-	internal "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/internal"
+	internal "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/internal"
 
 	"github.com/hyperledger/fabric/bccsp"
 	"github.com/hyperledger/fabric/bccsp/factory"

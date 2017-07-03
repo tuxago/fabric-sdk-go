@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	api "github.com/hyperledger/fabric-sdk-go/api"
+	api "github.com/tuxago/fabric-sdk-go/api"
 	"github.com/hyperledger/fabric/bccsp"
 
 	"github.com/hyperledger/fabric/msp"
@@ -27,7 +27,7 @@ import (
 	"github.com/op/go-logging"
 
 	proto_ts "github.com/golang/protobuf/ptypes/timestamp"
-	fc "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/internal"
+	fc "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/internal"
 
 	fabric_config "github.com/hyperledger/fabric/common/config"
 	mb "github.com/hyperledger/fabric/protos/msp"

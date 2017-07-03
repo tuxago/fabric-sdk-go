@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/util"
+	"github.com/tuxago/fabric-sdk-go/pkg/util"
 )
 
 func TestChainCodeInvoke(t *testing.T) {

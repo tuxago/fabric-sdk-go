@@ -13,11 +13,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	google_protobuf "github.com/golang/protobuf/ptypes/timestamp"
-	api "github.com/hyperledger/fabric-sdk-go/api"
-	channel "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/channel"
-	fc "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/internal"
-	packager "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/packager"
-	fcUser "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/user"
+	api "github.com/tuxago/fabric-sdk-go/api"
+	channel "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/channel"
+	fc "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/internal"
+	packager "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/packager"
+	fcUser "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/user"
 
 	"github.com/op/go-logging"
 

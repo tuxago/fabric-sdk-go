@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"testing"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
-	peer "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/peer"
+	api "github.com/tuxago/fabric-sdk-go/api"
+	peer "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/peer"
 )
 
 func TestChannelQueries(t *testing.T) {

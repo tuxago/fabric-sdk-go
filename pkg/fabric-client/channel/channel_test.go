@@ -13,10 +13,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
-	fc "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/internal"
-	mocks "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/mocks"
-	peer "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/peer"
+	api "github.com/tuxago/fabric-sdk-go/api"
+	fc "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/internal"
+	mocks "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/mocks"
+	peer "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/peer"
 
 	pb "github.com/hyperledger/fabric/protos/peer"
 )

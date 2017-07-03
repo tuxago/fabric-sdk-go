@@ -17,7 +17,7 @@ import (
 	"strconv"
 	"strings"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
+	api "github.com/tuxago/fabric-sdk-go/api"
 
 	bccspFactory "github.com/hyperledger/fabric/bccsp/factory"
 	"github.com/op/go-logging"

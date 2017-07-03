@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/api"
+	"github.com/tuxago/fabric-sdk-go/api"
 	pb "github.com/hyperledger/fabric/protos/peer"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

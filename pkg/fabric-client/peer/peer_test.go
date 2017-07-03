@@ -14,9 +14,9 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-sdk-go/api"
-	"github.com/hyperledger/fabric-sdk-go/api/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/peer/mocks"
+	"github.com/tuxago/fabric-sdk-go/api"
+	"github.com/tuxago/fabric-sdk-go/api/mocks"
+	"github.com/tuxago/fabric-sdk-go/pkg/fabric-client/peer/mocks"
 )
 
 // TestNewPeerWithCertNoTLS tests that a peer can be constructed without using a cert

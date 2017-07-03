@@ -12,9 +12,9 @@ import (
 	"os"
 	"testing"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
+	api "github.com/tuxago/fabric-sdk-go/api"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabric-ca-client/mocks"
+	"github.com/tuxago/fabric-sdk-go/pkg/fabric-ca-client/mocks"
 )
 
 var configImp api.Config

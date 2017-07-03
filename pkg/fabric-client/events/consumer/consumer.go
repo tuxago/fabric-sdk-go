@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	api "github.com/hyperledger/fabric-sdk-go/api"
-	fc "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/internal"
+	api "github.com/tuxago/fabric-sdk-go/api"
+	fc "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/internal"
 	"github.com/hyperledger/fabric/bccsp"
 	consumer "github.com/hyperledger/fabric/events/consumer"
 	"github.com/hyperledger/fabric/protos/peer"

@@ -9,8 +9,8 @@ package fabricclient
 import (
 	"testing"
 
-	mocks "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/peer"
+	mocks "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/mocks"
+	"github.com/tuxago/fabric-sdk-go/pkg/fabric-client/peer"
 )
 
 const (

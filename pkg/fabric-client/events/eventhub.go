@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	api "github.com/hyperledger/fabric-sdk-go/api"
-	consumer "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/events/consumer"
+	api "github.com/tuxago/fabric-sdk-go/api"
+	consumer "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/events/consumer"
 	cnsmr "github.com/hyperledger/fabric/events/consumer"
 
 	"github.com/hyperledger/fabric/core/ledger/util"

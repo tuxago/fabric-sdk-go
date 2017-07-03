@@ -16,14 +16,14 @@ import (
 	"testing"
 	"time"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
+	api "github.com/tuxago/fabric-sdk-go/api"
 
-	client "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client"
-	kvs "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/keyvaluestore"
-	sdkUser "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/user"
+	client "github.com/tuxago/fabric-sdk-go/pkg/fabric-client"
+	kvs "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/keyvaluestore"
+	sdkUser "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/user"
 	bccspFactory "github.com/hyperledger/fabric/bccsp/factory"
 
-	fabricCAClient "github.com/hyperledger/fabric-sdk-go/pkg/fabric-ca-client"
+	fabricCAClient "github.com/tuxago/fabric-sdk-go/pkg/fabric-ca-client"
 )
 
 // This test loads/enrols an admin user

@@ -5,7 +5,7 @@ package mock_peer
 
 import (
 	gomock "github.com/golang/mock/gomock"
-	api "github.com/hyperledger/fabric-sdk-go/api"
+	api "github.com/tuxago/fabric-sdk-go/api"
 )
 
 // MockProposalProcessor is a mock of ProposalProcessor interface

@@ -11,11 +11,11 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
-	sdkUser "github.com/hyperledger/fabric-sdk-go/pkg/fabric-client/user"
+	api "github.com/tuxago/fabric-sdk-go/api"
+	sdkUser "github.com/tuxago/fabric-sdk-go/pkg/fabric-client/user"
 
 	"github.com/hyperledger/fabric-ca/util"
-	fabricCAClient "github.com/hyperledger/fabric-sdk-go/pkg/fabric-ca-client"
+	fabricCAClient "github.com/tuxago/fabric-sdk-go/pkg/fabric-ca-client"
 )
 
 // GetPreEnrolledUser ...

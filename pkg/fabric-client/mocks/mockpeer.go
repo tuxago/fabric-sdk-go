@@ -11,7 +11,7 @@ import (
 	"encoding/pem"
 	"errors"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
+	api "github.com/tuxago/fabric-sdk-go/api"
 
 	pb "github.com/hyperledger/fabric/protos/peer"
 )

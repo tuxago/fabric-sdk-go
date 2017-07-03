@@ -9,8 +9,8 @@ package integration
 import (
 	"fmt"
 
-	api "github.com/hyperledger/fabric-sdk-go/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util"
+	api "github.com/tuxago/fabric-sdk-go/api"
+	"github.com/tuxago/fabric-sdk-go/pkg/util"
 )
 
 // GetOrdererAdmin ...
